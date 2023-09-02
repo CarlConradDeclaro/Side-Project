@@ -1,2 +1,2 @@
 # Side-Project
-Some of the project I made as student
+Some of the simple project I made as student
