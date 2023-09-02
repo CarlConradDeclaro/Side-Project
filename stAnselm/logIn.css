@@ -1,0 +1,29 @@
+.log-In-area{  
+    background-color: aquamarine;
+    width: 28%;
+    height: 430px;
+    margin-left: 33%;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 50px;
+}
+.log-in{
+     margin: 15%;
+}
+.log-in > input{
+    width: 90%;
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.log-in > span{
+   margin-left: 83px;
+}
+ button{
+    width: 90%;
+    height: 35px;
+    background-color: rgb(107, 239, 239);
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
