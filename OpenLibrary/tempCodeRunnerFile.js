@@ -1,0 +1,10 @@
+document.getElementById("details").textContent = details;
+// document.getElementById("year").textContent = year;
+// document.getElementById("language").textContent = language;
+// document.getElementById("sbn").textContent = sbn;
+// document.getElementById("series").textContent = series;
+// document.getElementById("publisher").textContent = publisher;
+// document.getElementById("pages").textContent = pages;
+// document.getElementById("isbn").textContent = isbn;
+// document.getElementById("file").textContent = file;
+// document.getElementById("img").src = image;

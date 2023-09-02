@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Open Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <h1 id="title">Open Library</h1>
+        
+    </head>
+
+    <section class="featured">
+        <div class="fbook-1">
+            <img src="images\book1.png" alt="Secrets of the Millionaire Mind">                
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur reprehenderit adipisci ab? Ab sed voluptatem, vitae cum veniam temporibus repudiandae dolorum asperiores! Repellat veniam quidem et esse illum ut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit reiciendis ab delectus similique ea totam libero blanditiis ipsam vel obcaecati neque laudantium iusto et, hic eaque tempora, odio quaerat perferendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam iste nihil itaque delectus, expedita modi dolores ab voluptate iure reprehenderit pariatur dolore, quam excepturi magni dolorum perferendis aut rerum!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, inventore explicabo eum ab ducimus, ipsa amet nam cum quidem blanditiis dignissimos, similique cumque vero error architecto obcaecati tempore quasi illo!</p>
+        </div>
+    </section>
+    
+    <section class="searBar">        
+            <form>              
+                     <button type="button" onclick="searchBooks()">Search</button>            
+            </form>  
+    </section>
+    <main id="books" class="books">
+
+           <section id="Financial-books" class="Financial-books">
+           
+                <h2   class="title-financial" id="title-fi">Financial</h2>            
+            
+            <section id="popUp" class="popUp">
+                <button id="close" class="close" onclick="closePopup()">Close</button>
+                <div class="modal">
+                    <img  id="img" alt="Secrets of the Millionaire Mind">                                                                   
+                    <p id="details"></p>            
+                </div> 
+                <div class="information">
+                    <div>
+                        <p id="year"></p>
+                        <p id="language"></p>
+                        <p id="sbn"></p>
+                        <p id="series"></p>
+                    </div>
+                    <div>
+                        <p id="publisher"></p>
+                        <p id="pages"></p>
+                        <p id="isbn"></p>
+                        <p id="file"></p>
+                    </div>
+                </div>
+                <div class="download">
+                    <button>Download</button>
+                </div>
+            </section>
+                         <div class="book-1"  id="Secrets of the Millionaire Mind"  onclick="toggle(this)">
+                             <img src="images\book1.png" alt="Secrets of the Millionaire Mind" >                                                                                                                                 
+                         </div>
+                         <div class="book-2" id="Mind" onclick="toggle(this)">
+                             <img src="images\book1.png" alt="Secrets of the Millionaire Mind"  >                                                  
+                         </div>
+                         <div class="book-3"  onclick="toggle(this)" >
+                             <img src="images\book1.png"  alt="Secrets of the Millionaire Mind" >                              
+                          </div>                  
+                         <div class="book-4"  onclick="toggle(this)">
+                             <img src="images\book1.png"  alt="Secrets of the Millionaire Mind">                              
+                          </div>   
+                          <div class="book-5"  onclick="toggle(this)">
+                             <img src="images\book1.png"  >                                             
+                         </div>
+                         <div class="book-6"  onclick="toggle(this)">
+                              <img src="images\book1.png" >                              
+                         </div>                        
+                         <div class="book-7"  onclick="toggle(this)">
+                             <img src="images\book1.png"  >                              
+                         </div>                  
+                         <div class="book-8"  onclick="toggle(this)">
+                             <img src="images\book1.png"  >                              
+                         </div>
+                         <div class="book-9"  onclick="toggle(this)">
+                             <img src="images\book1.png" >                              
+                         </div>
+                        
+                         <div class="book-10"  onclick="toggle(this)">
+                             <img src="images\book1.png" >                              
+                         </div>  
+                         <div class="book-7"  onclick="toggle(this)">
+                            <img src="images\book1.png"  >                              
+                        </div>                  
+                        <div class="book-8"  onclick="toggle(this)">
+                            <img src="images\book1.png"  >                              
+                        </div>
+                        <div class="book-9"  onclick="toggle(this)">
+                            <img src="images\book1.png" >                              
+                        </div>
+                       
+                        <div class="book-10"  onclick="toggle(this)">
+                            <img src="images\book1.png" >                              
+                        </div>  
+                        <div class="book-7"  onclick="toggle(this)">
+                            <img src="images\book1.png"  >                              
+                        </div>                  
+                        <div class="book-8"  onclick="toggle(this)">
+                            <img src="images\book1.png"  >                              
+                        </div>
+                        <div class="book-9"  onclick="toggle(this)">
+                            <img src="images\book1.png" >                              
+                        </div>
+                       
+                        <div class="book-10"  onclick="toggle(this)">
+                            <img src="images\book1.png" >                              
+                        </div>  
+                         <div class="book-7"  onclick="toggle(this)">
+                             <img src="images\book1.png"  >                              
+                         </div>                  
+                         <div class="book-8"  onclick="toggle(this)">
+                             <img src="images\book1.png"  >                              
+                         </div>
+                         <div class="book-9"  onclick="toggle(this)">
+                             <img src="images\book1.png" >                              
+                         </div>
+                        
+                         <div class="book-10"  onclick="toggle(this)">
+                             <img src="images\book1.png" >                              
+                         </div>  
+           </section>
+
+           <section  id="sci-fi-books" class="sci-fi-books">
+            <h2 class="title-sci-fi">Sci-fi</h2>
+            <div class="book-1">
+                <img src="images\book1.png" alt="fuck">                              
+                                
+            </div>
+            <div class="book-2">
+                <img src="images\book1.png"  > 
+                
+            </div>
+
+            <div class="book-3">
+                <img src="images\book1.png"  > 
+               
+            </div>
+            
+            <div class="book-4">
+                <img src="images\book1.png" > 
+                
+             </div>   
+            <div class="book-5">
+                <img src="images\book1.png"  > 
+               
+             </div>
+            <div class="book-6">
+                <img src="images\book1.png" alt="mabuhay" > 
+                
+            </div>
+            
+            <div class="book-7">
+                <img src="images\book1.png" > 
+                
+            </div>
+
+            
+             
+           </section>
+
+       <div class="searchSection">
+
+         
+       </div>
+    
+
+
+
+
+    </main>
+
+<script src="js.js"></script>
+<script src="BooksDetails.js"></script>
+</body>
+</html>
