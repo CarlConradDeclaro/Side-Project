@@ -1,0 +1,559 @@
+ 
+ body{
+    margin: 0px;
+    width: 100%;
+    
+ }
+
+
+
+.HomeNav{
+     display: flex;
+     background-color:#f2f2f2;
+     width:100%;
+     background: rgb(34,193,195);
+     background: linear-gradient(0deg, rgba(171, 230, 83, 0.738) 0%, rgba(234,234,234,1) 100%);
+}
+
+ .HomeNav > nav ul li{   
+   
+     display: inline-block;
+     padding-left: 150px;
+     padding-bottom: 30px;
+
+}
+.HomeNav   .navBottons {
+      list-style: none;
+   }
+ 
+
+
+.firstBlog{grid-area: first;}
+.secondBlog{grid-area: second;}
+.thirdBlog{grid-area: third;}
+
+
+.mainTopics{
+   display: grid;
+   grid-template-areas: 'first     second'                        
+                        'first    third'
+                        ;
+   grid-gap: 10px;
+   grid-template-columns: 50% 50%    ;
+   grid-template-rows: 200px   200px  ;
+   margin:10px 15%;
+   
+    
+}
+ 
+.content{   
+      height: 500px;
+      padding-top: 10px;
+      border-radius: 10px;
+}
+ 
+ 
+ .mainTopics{
+    padding-top: 10px;
+ }
+ .firstBlog h1{
+
+    padding-top: 52px;
+    text-align: center;
+    margin-top: 160px;
+    
+ }
+ .firstBlog > img{ 
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+ .secondBlog > img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+ .thirdBlog > img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+
+
+.box{
+    border-radius: 10px;
+}
+
+
+/* blogArea */
+.highLights{
+   grid-area: One;
+    
+  width:100%;
+}
+.trendAndRecent{
+   grid-area: two;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 130px;
+   
+}
+ 
+.blogArea{
+   
+   margin:100px 10%;
+   display: grid;
+   
+   grid-template-areas: 'One  two'
+                        'One two'
+                        ;
+   grid-gap: 50px;
+   grid-template-columns: auto 30%;
+   grid-template-rows: auto auto  ;
+
+  
+}
+
+ 
+
+ .highLights{
+   padding: 10px;
+ }
+
+
+   .blog{
+   
+      width: 350px;
+      height: 500px;
+      margin-left:25px;
+      margin-bottom: 15px;  
+      display:inline-block; 
+     background-color: yellow;
+    }
+
+
+
+    .highLights  img{
+      width: 250px;
+      height: 150px;  
+      text-align: center;
+      background-size: cover;    
+      border-radius: 10px;
+   
+      
+   }
+
+   @media only screen and (max-width: 2170px) {
+          
+      .highLights > div{
+         width: 450px;
+      background-color: yellow;
+      margin-left:35px;
+    }
+    .highLights > div img{
+       width: 400px;
+       height: 220px;    
+    }
+      }
+
+
+
+      @media only screen and (max-width: 1873px) {
+          
+         .highLights > div{
+            width: 450px;
+         background-color: yellow;
+         margin-left:35px;
+       }
+       .highLights > div img{
+          width: 400px;
+          height: 220px;    
+       }
+         }
+
+         @media only screen and (max-width: 1880px) {
+          
+            .highLights > div{
+               width: 400px;
+            background-color: yellow;
+          
+          }
+           
+            }
+            @media only screen and (max-width: 1700px) {
+          
+               .highLights > div{
+                  width: 350px;
+               background-color: yellow;
+             
+             }
+             .highLights > div img{
+               width: 300px;
+               height: auto;    
+            }
+             
+               }
+   
+
+
+@media only screen and (max-width: 1459px) {
+.highLights > div{
+       width: 300px;
+   background-color: yellow;
+   margin-left:35px;
+ }
+ .highLights > div img{
+    width: 200px;
+    height: 120px;    
+ }  
+}
+  
+@media only screen and (max-width: 1311px) {
+  
+.highLights > div  {
+ 
+    max-width: 270px;
+      height: auto;
+ 
+    margin-bottom: 15px;  
+   display: inline-block; 
+   
+   background-color: yellow;
+   
+    margin-left:15px;
+ }
+
+ .highLights > div img{
+    width: 250px;
+    height: 150px;  
+    text-align: center;
+    background-size: cover;    
+    border-radius: 10px;
+ 
+    
+ }
+   }
+
+   @media only screen and (max-width: 1201px) {
+      .highLights > div{
+             width: 800px;
+            height: auto;
+         background-color: yellow;
+       
+       
+        }
+       .highLights > div img{
+          width: 200px;
+          height: 120px;    
+            
+       }  
+      }
+
+
+      @media only screen and (max-width: 1111px) {
+         .highLights > div{
+            width: 40%;
+           height: auto;
+        background-color: yellow;
+      
+      }
+
+         .highLights > div{
+             
+            background-color: yellow;
+          
+          
+           }
+         }
+
+
+
+
+
+
+
+
+
+
+      @media only screen and (max-width: 980px) {
+           
+         .highLights > div{
+            width: 200px;
+           height: auto;
+        background-color: yellow;
+         }
+
+         .highLights > div{
+             
+            background-color: yellow;
+          
+          
+           }
+        
+         }
+
+         @media only screen and (max-width: 874px) {
+            .highLights > div{
+               width: 150px;
+               background-color: yellow;
+             
+               
+              }
+           
+            }
+          
+
+
+     
+
+
+
+
+
+
+
+
+/*FOOTER AREA*/
+
+footer{
+   margin-top: 300px;
+   background-color: #9baf17;
+   padding: 2em;
+   text-align: center;
+}
+footer h1 {
+   margin-bottom: 1em;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+   
+}
+th, td {
+   padding: 0.5em 1em;
+   border-bottom: 1px solid #ddd;
+   border: 0;
+}
+th {
+   font-weight: bold;
+}
+/*FOOTER AREA*/
+
+
+
+
+/*trendAndRecent AREA*/
+
+.trendAndRecent > div{
+   display: inline-block;
+}
+.trendAndRecent > div img{
+  height:100px;
+   width: 200px;    
+    margin-left: 5px;
+   border-radius: 10px;     
+    margin-bottom: 20px;
+     float: left;
+}
+ 
+.trendAndRecent > div p{
+   
+   margin-left: 210px;
+   
+   white-space: pre-wrap;
+}
+ 
+
+/*trendAndRecent AREA*/
+
+
+
+
+/*PHONE SIZE*/
+
+@media only screen and (max-width: 420px) {
+   /* For mobile phones: */
+
+ .bdy{
+   width: 100%;
+ }
+   .HomeNav{
+      width: 100%;
+      display: flex;
+      background-color:#f2f2f2;
+     
+      ;
+      
+  }
+  
+   .HomeNav > nav ul li{   
+     
+       display: inline-block;
+       padding: 20px 100px 50px 100px;
+       text-align: center;
+  }
+    
+  .HomeNav  .navBottons {
+     list-style: none;
+  }
+
+
+.content{   
+   width: 100%;
+   border-radius: 10px;
+  margin: 0;
+   
+   
+ 
+}
+
+
+   .firstBlog{grid-area: first;}
+   .secondBlog{grid-area: second;}
+   .thirdBlog{grid-area: third;}
+
+   .mainTopics{
+      display: grid;
+      grid-template-areas: 'first  first'
+                           'first first  ' 
+                           'first  first ' 
+                           'second second'
+                           'second second'
+                           'third third'
+                           ;
+      grid-gap: 10px;
+       
+     margin: 10px 8%;
+
+      
+  }
+  
+  
+ 
+
+ 
+.content  h1{
+   text-align: center;
+}
+
+ 
+  
+.firstBlog h1{
+   padding-top: 52px;
+   text-align: center;
+   margin-top: 160px;
+  }
+
+.firstBlog{
+   color: #ddd;
+   max-width: 250px;
+   height: 190px;
+   background-color: rgb(215, 215, 225);
+   border-radius: 10px;
+    
+}
+.secondBlog{
+  margin-top: 2px;
+  max-width: 250px;
+   height: 190px;
+  background-color: rgb(173, 127, 67);
+  
+}
+.thirdBlog{
+ margin-top: 2px;
+ max-width: 250px;
+ height: 190px;
+background-color: rgb(178, 129, 65);
+  
+}
+.box{
+ border-radius: 10px;
+  
+}
+
+
+
+
+
+/*BLOG AREA*/
+
+.highLights{
+   grid-area: One;
+   
+    
+  
+}
+.trendAndRecent{grid-area: two;
+    
+}
+ 
+.blogArea{
+   display: grid;
+ 
+   grid-template-areas: 'One One  '
+                        'One One '
+                        'One One  '
+                        'two two'
+                        'two two'         
+                        ;
+   grid-gap: 10px;
+   display: block;
+  background-color: rgb(77, 11, 11);
+  margin-top: 90%;
+  margin-left: 0;
+  margin-right: 0;
+}
+ 
+
+ 
+
+.highLights > div img{
+   
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   background-size: cover;    
+   border-radius: 10px;     
+   object-fit: cover;
+}
+ 
+   
+
+
+.trendAndRecent > div{
+   width: 208px;
+   height: 100px;
+}
+
+ 
+
+
+
+/*FOOTER AREA*/
+
+.footer{
+   
+   margin-top: 300px;
+   background-color: #9baf17; 
+   text-align: center;
+   margin: 0;
+   
+}
+ 
+table {
+ border-collapse: collapse;   
+}
+ 
+th {
+   font-weight: bold;
+}
+/*FOOTER AREA*/
+
+
+
+ }
+ 

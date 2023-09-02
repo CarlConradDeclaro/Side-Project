@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+} 
+
+.Blogcontent{
+    margin-left: 10%;
+    margin-right: 30%;
+    padding-top: 5%;
+     border-radius: 10px;
+    width: 900px;
+}
+span{
+    font-weight: bold;
+    background-color:beige;
+}
+.Blogcontent h1  {
+    text-align: center;
+     padding-top: 30px;
+}
+.Blogcontent h3{
+    padding: 30px;
+}
+.Blogcontent ol{
+    padding: 10%;
+}
+
+ 
+ 
+
+/*Nav*/
+.HomeNav{
+    display: flex;
+    background-color:#f2f2f2;
+    
+}
+
+ .HomeNav > nav ul li{   
+   
+     display: inline-block;
+     padding: 12px 10px 30px 200px;
+}
+  
+.HomeNav   .navBottons {
+   list-style: none;
+}
+ /*Nav*/
+ 
+.trendAndRecent{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 30px;
+    margin-left: 150px;
+    margin-top: 550px;
+}
+
+ 
+ .collumnOne{grid-area: first;}
+ .collumnTwo{grid-area: second;}
+ 
+ .content{
+    display: grid;
+    grid-template-areas: 'first  first second second'
+                         'first first   second second'
+                       
+                         ;
+    grid-gap: 10px;
+ 
+}
+ 
+
+.trendAndRecent > div{
+    width: 90%;
+    display: inline-block;
+   
+
+ }
+ .trendAndRecent > div img{
+    height:100px;
+    width: 200px;    
+     margin-left: 5px;
+    border-radius: 10px;     
+     margin-bottom: 20px;
+      float: left;
+ }
+  
+ .trendAndRecent > div p{
+    
+    margin-left: 210px;
+    
+    white-space: pre-wrap;
+ }
+  
+ 
+/*FOOTER AREA*/
+
+footer{
+    margin-top: 300px;
+    background-color: #373447;
+    padding: 2em;
+    text-align: center;
+ }
+ footer h1 {
+    margin-bottom: 1em;
+ }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    
+ }
+ th, td {
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ddd;
+    border: 0;
+ }
+ th {
+    font-weight: bold;
+ }
+ /*FOOTER */
